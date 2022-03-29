@@ -29,7 +29,7 @@ int score()
 int bat1(int e,char *c,int check)
 
 {
-  int i,orig,totalruns=0,we;
+  int i,o_g,totalruns=0,we;
   
 
   printf("%s Get ready to Bat \nPress any key to hit the Ball",c);
@@ -39,12 +39,12 @@ int bat1(int e,char *c,int check)
     getchar();
     if(check<totalruns)
     return totalruns;
-    orig=score();
-    if(orig==7)
+    o_g=score();
+    if(o_g==7)
     break;
     else
     {
-      totalruns=totalruns+orig;
+      totalruns=totalruns+o_g;
       printf(" Your total score is %d",totalruns);
     }
   }
