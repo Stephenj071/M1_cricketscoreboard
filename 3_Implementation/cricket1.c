@@ -86,17 +86,18 @@ void main()
   int ret;
   char ch;
 
-  printf("\n\n\n\t\t\t    CRICKET WORLD CUP 2022");
+  printf("\n\n\n\t\t\t    INDIAN PREMIER LEAGUE 2022");
   printf("\n\n\n\npress any key to continue");
   getchar();
   while(1)
   {
 
-    printf("\n\n\t\t\tCRICKET WORLD CUP 2022");
+    printf("\n\n\t\t\tINDIAN PREMIER LEAGUE 2022");
     printf("\n\n\n\t1.) START\t\t\tpress 1\n\n\t2.) INSTRUCTIONS\t\tpress 2\n\n\t3.) EXIT\t\t\tpress 3");
     scanf("%d",&ret);
     switch(ret)
     {
+      
       case 1:
 
       sel();
