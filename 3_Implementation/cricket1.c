@@ -18,7 +18,7 @@ void con(int we,int ew,char *c,char *d)
     printf("\n\n\t\t\t\t*******GAME HAS DRWRAN********\nScore of %s is %d\nScore of %s is %d",c,we,d,ew);
   }
 }
-void select()
+void sel()
 {
   int yu,e,i,toss,y,aso,we=1000,ew=1000;
   char Team1[50],Team2[50];
@@ -40,7 +40,7 @@ void select()
   if(toss==0)
   {
     printf("%s Has Won The Toss",Team1);
-    printf(" Select \n1.)Batting \t\t\t\tpress 1 \n2.)Bowling\t\t\t\tpress 2");
+    printf(" sel \n1.)Batting \t\t\t\tpress 1 \n2.)Bowling\t\t\t\tpress 2");
     scanf("%d",&y);
     switch(y)
     {
@@ -62,7 +62,7 @@ void select()
   else
   {
     printf("%s Has Won The Toss",Team2);
-    printf(" Select \n1.)Batting \t\t\t\tpress 1 \n2.)Bowling\t\t\t\tpress 2");
+    printf(" sel \n1.)Batting \t\t\t\tpress 1 \n2.)Bowling\t\t\t\tpress 2");
     scanf("%d",&y);
     switch(y)
     {
@@ -99,7 +99,7 @@ void main()
     {
       case 1:
 
-      select();
+      sel();
       break;
       case 2:
 
