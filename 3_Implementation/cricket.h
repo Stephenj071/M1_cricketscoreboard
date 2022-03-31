@@ -10,10 +10,8 @@
  */
 #ifndef _CRICKET_H_
 #define _CRICKET_H_
-
-#include<time.h>
-#include<stdio.h>
-#include<stdlib.h>
+int run;
+int bat1(int e,char *c,int check);
 
 
 #endif /* _CRICKET_H_ */

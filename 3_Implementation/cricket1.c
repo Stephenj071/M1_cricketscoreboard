@@ -1,6 +1,7 @@
 #include<time.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include"cricket.h"
 
 int bat1(int e,char *c,int check);
 void con(int we,int ew,char *c,char *d)
@@ -81,7 +82,7 @@ void sel()
     }
   }
 }
-void main()
+void m()
 {
   int ret;
   char ch;
@@ -117,5 +118,6 @@ void main()
     }
   }
 }
+
 
 
