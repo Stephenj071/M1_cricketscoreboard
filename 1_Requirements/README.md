@@ -1,5 +1,5 @@
 # Description
-* An interactive Portal for automating various manual processes done by a Librarian.
+* It is about a cricket scoreboard for IPL 2022 that run based on luck
 
 # Requirements
 
@@ -27,16 +27,16 @@ Client
 • Microsoft Windows 7 or above
 
 ## Low Level Requirements
-* by collecting the data from a library
-* and linking that with the code 
+* just the score that the client need to enter
+ 
 
 ## SWOT
 
 ## 5W's & 1H
-*1)	Who –  By Anith K N B 
-*2)	When – before 13/02/2022\
+*1)	Who –  By Stephen J
+*2)	When – before 31/03/2021\
 *3)	Where – Internship 
-*4)	What – library management system 
-*5)	Why – to easily gather the information of books present in a library 
+*4)	What – CRICKET SCOREBOARD 
+*5)	Why – It is a fun game for entertainment purpose only 
 *6)	How – with the help of c program 
 
