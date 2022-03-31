@@ -13,7 +13,7 @@ src/cricket1.c
 
 # All test source files
 TEST_SRC = crickettest.c\
-unity/unity.c
+Unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
