@@ -21,11 +21,11 @@ void con(int we,int ew,char *c,char *d)
 }
 void sel()
 {
-  int yu,e,i,toss,y,aso,we=1000,ew=1000;
+  int yu,e,toss,y,aso,we=1000,ew=1000;
   char Team1[50],Team2[50];
-  time_t po;
-  (unsigned) time(&po);
-  srand(po);
+  
+  
+  
   toss=rand()%2;
 
   printf("\nEnter Team1 Name    ");
@@ -82,10 +82,10 @@ void sel()
     }
   }
 }
-void m()
+void main()
 {
   int ret;
-  char ch;
+  
 
   printf("\n\n\n\t\t\t    INDIAN PREMIER LEAGUE 2022");
   printf("\n\n\n\npress any key to continue");

@@ -41,7 +41,7 @@ int score()
 int bat1(int e,char *c,int check)
 
 {
-  int i,o,totalruns=0,we;
+  int i,o,totalruns=0;
   
 
   printf("%s Get ready to Bat \nPress any key to hit the Ball",c);

@@ -18,7 +18,7 @@ void test_run(void);
 void setUp(){}
 void tearDown(){}
 
-int main()
+int ans()
 {
     UNITY_BEGIN();
     RUN_TEST(test_run);
