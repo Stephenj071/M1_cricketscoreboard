@@ -14,14 +14,15 @@ cricket1.c\
 # All test source files
 TEST_SRC = cricket.c\
 cricket1.c\
-crickettest.c.c\
+crickettest.c\
 unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc\
--Iunity\
+INC	= cricket.h\
+unity.h\
+unity_internals.h\
 
 #Library Inlcudes
 #if working with CUnit 
