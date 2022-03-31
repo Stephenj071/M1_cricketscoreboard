@@ -13,18 +13,18 @@
 
 
 
-void test_run(void);
+void test_bat1(void);
 
-void setUp(){}
-void tearDown(){}
+void setUp(void){}
+void tearDown(void){}
 
-int ans()
+int main(void)
 {
     UNITY_BEGIN();
-    RUN_TEST(test_run);
+    RUN_TEST(test_bat1);
     return UNITY_END();
 }
 
-void test_run(void){
+void test_bat1(void){
     TEST_ASSERT_EQUAL(1,1);
 }

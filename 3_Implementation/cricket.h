@@ -10,6 +10,7 @@
  */
 #ifndef _CRICKET_H_
 #define _CRICKET_H_
+#define start main
 int run;
 int bat1(int e,char *c,int check);
 
