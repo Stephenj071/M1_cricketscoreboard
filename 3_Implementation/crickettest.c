@@ -11,7 +11,7 @@
 #include"unity.h"
 #include"cricket.h"
 
-#define PROJECT_NAME "_CRICKET_H_"
+
 
 void test_run(void);
 
