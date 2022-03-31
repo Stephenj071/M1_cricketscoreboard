@@ -26,5 +26,5 @@ int ans()
 }
 
 void test_run(void){
-    TEST_ASSERT_EQUAL(4,4);
+    TEST_ASSERT_EQUAL(1,1);
 }
