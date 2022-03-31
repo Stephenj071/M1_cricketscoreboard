@@ -18,10 +18,10 @@ void test_bat1(void);
 void setUp(){}
 void tearDown(){}
 void test_bat1(void){
-    TEST_ASSERT_EQUAL(3,3);
+    TEST_ASSERT_EQUAL(1,1);
 }
 
-int a()
+int main()
 {
     UNITY_BEGIN();
     RUN_TEST(test_bat1);

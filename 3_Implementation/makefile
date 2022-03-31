@@ -7,22 +7,19 @@ PROJECT_NAME = _CRICKET_H_
 BUILD = build
 
 # All source code files
-SRC = cricket.c\
-cricket1.c\
+SRC = src/cricket.c\
+src/cricket1.c
 
 
 # All test source files
-TEST_SRC = cricket.c\
-cricket1.c\
-crickettest.c\
-unity.c\
+TEST_SRC = crickettest.c\
+unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= cricket.h\
-unity.h\
-unity_internals.h\
+INC	= -Iinc\
+-IUnity
 
 #Library Inlcudes
 #if working with CUnit 
