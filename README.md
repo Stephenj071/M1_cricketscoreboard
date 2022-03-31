@@ -9,3 +9,5 @@ M1_To_Create_a_Scoreboard_for_Cricket
 [![Build CI - Linux](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/c-cpp.yml)
 * Analysis
 [![Analysis](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/analysis.yml/badge.svg)](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/analysis.yml)
+* Unit Testing
+[![Unit testing](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/unit-test.yml/badge.svg?branch=main)](https://github.com/Stephenj071/M1_cricketscoreboard/actions/workflows/unit-test.yml)
