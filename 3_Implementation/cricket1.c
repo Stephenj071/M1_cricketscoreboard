@@ -83,7 +83,7 @@ void sel()
     }
   }
 }
-void m()
+void main()
 {
   int ret;
   

@@ -15,16 +15,16 @@
 
 void test_bat1(void);
 
-void setUp(void){}
-void tearDown(void){}
+void setUp(){}
+void tearDown(){}
+void test_bat1(void){
+    TEST_ASSERT_EQUAL(1,1);
+}
 
-int main(void)
+int a()
 {
     UNITY_BEGIN();
     RUN_TEST(test_bat1);
     return UNITY_END();
 }
 
-void test_bat1(void){
-    TEST_ASSERT_EQUAL(1,1);
-}
