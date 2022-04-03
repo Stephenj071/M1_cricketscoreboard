@@ -1,5 +1,6 @@
 # M1_cricketscoreboard
 M1_To_Create_a_Scoreboard_for_Cricket
+![logo](https://user-images.githubusercontent.com/101174057/161420846-7dab09d2-2ea1-4159-bc27-b0806b7e8121.jpg)
 # Badges
 * Codiga - Static Analysis
 [![Quality](https://api.codiga.io/project/32185/score/svg)]
